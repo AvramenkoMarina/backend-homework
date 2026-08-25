@@ -1,3 +1,4 @@
-*.pem
-*.key
-node_modules/
+node_modules
+dist
+.pnpm-store
+config.bat
