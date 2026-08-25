@@ -1,0 +1,8 @@
+
+services:
+  api:
+    volumes:
+      - ./src:/app/src
+    command: ["node", "--watch", "src/server.js"]
+    environment:
+      NODE_ENV: development
